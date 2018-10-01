@@ -16,6 +16,14 @@ public class CircularLinkedList {
         return size;
     }
 	
+	public Child getStart() {
+		return start;
+	}
+
+	public Child getEnd() {
+		return end;
+	}
+
 	public void insertNextChild(Child next) {
 		if(start == null) {
 			start = next;
